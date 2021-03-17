@@ -1,255 +1,184 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <title>Document</title>
-    <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css" />
-    <link rel="stylesheet" href="css/main.min.css" />
-  </head>
-  <body>
-    <nav class="">
-      <div class="container mainHeader">
-        <div class="ml-5 d-flex flex-column align-content-center text-white">
-         <center><h3 class="mt-5">Jogo IDH - SISVAN</h3></center> 
 
-        </div>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <title>Document</title>
+  <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css" />
+  <link rel="stylesheet" href="css/main.min.css" />
+</head>
+
+<body>
+  <nav class="">
+    <div class="container mainHeader">
+      <div class="ml-5 d-flex flex-column align-content-center text-white">
+        <center>
+          <h3 class="mt-5">Jogo IDH - SISVAN</h3>
+        </center>
+
       </div>
-    </nav>
-    <section class="mainPanel px-3">
-      <div>
-        <div class="ml-5 d-flex">
-          <h4 class="panel-title">Relacione o valor do IDH com a imagem.</h4>
-        </div>
-        <hr class="h-line" />
-        <div class="ml-5 score-panel">
-          <span class="ncards-panel"
-            >Palavras:<span class="ml-2" id="number-card">8</span>/8</span
-          >
-          <span class="score"
-            >Acertos: <span class="ml-2" id="actual-score">0</span>/8</span
-          >
-        </div>
+    </div>
+  </nav>
+  <section class="mainPanel px-3">
+    <div>
+      <div class="ml-5 d-flex">
+        <h4 class="panel-title">Relacione o valor do IDH com a imagem.</h4>
       </div>
-      <section class="ml-4 mt-5 d-flex flex-wrap">
-        <section class="titulos col-3">
-          <div class="title-card" draggable="true" name="01">
-            <span>
-              0,749
-            </span>
-          </div>
-          <div class="title-card" draggable="true" name="02">
-            <span>
-              0,450
-            </span>
-          </div>
-          <div class="title-card" draggable="true" name="03">
-            <span>
-              0,763
-            </span>
-          </div>
-          <div class="title-card" draggable="true" name="04">
-            <span>
-              0,684
-            </span>
-          </div>
-          <div class="title-card" draggable="true" name="05">
-            <span>
-              0,763
-            </span>
-          </div>
-          <div class="title-card" draggable="true" name="06">
-            <span>
-              0,450
-            </span>
-          </div>
-          <div class="title-card" draggable="true" name="07">
-            <span>
-            0,749  
-            </span>
-          </div>
-          <div class="title-card" draggable="true" name="08">
-            <span>
-              0,684
-            </span>
-          </div>
-
-        </section>
-        <div class="v-line"></div>
-        <section
-          class="conteudos d-flex flex-wrap justify-content-between col-7"
-        >
-          <div class="card-conteudo ml-2 mr-2 mb-2 col">
-            <span>
-              <center><img src="image/6.jpg"</center>
-            </span>
-            <div class="empty" name="03">
-              <span id="tip03">Arraste aqui</span>
-            </div>
-          </div>
-
-          <div class="card-conteudo ml-2 mr-2 mb-2 col">
-            <span>
-              <center><img src="image/1.jpg"</center>
-            </span>
-            <div class="empty" name="01">
-              <span id="tip01" class="">Arraste aqui</span>
-            </div>
-          </div>
-
-          <div class="card-conteudo ml-2 mr-2 mb-2 mt-2 col">
-            <span>
-              <center><img src="image/7.jpg"</center>
-            </span>
-            <div class="empty" name="02">
-              <span id="tip02">Arraste aqui</span>
-            </div>
-          </div>
-
-          <div class="card-conteudo ml-2 mr-2 mb-2 mt-2 col">
-            <span>
-              <center><img src="image/8.jpg"</center>
-            </span>
-            <div class="empty" name="06">
-              <span id="tip06">Arraste aqui</span>
-            </div>
-          </div>
-
-          <div class="card-conteudo ml-2 mr-2 mb-2 mt-2 col">
-            <span>
-              <center><img src="image/4.jpeg"</center>
-            </span>
-            <div class="empty" name="04">
-              <span id="tip04">Arraste aqui</span>
-            </div>
-          </div>
-          <div class="card-conteudo ml-2 mr-2 mb-2 mt-2 col">
-            <span>
-              <center><img src="image/5.jpeg"</center>
-            </span>
-            <div class="empty" name="05">
-              <span id="tip05">Arraste aqui</span>
-            </div>
-          </div>
+      <hr class="h-line" />
+      <div class="ml-5 score-panel">
+        <span class="ncards-panel">Palavras:<span class="ml-2" id="number-card">4</span>/4</span>
+        <span class="score">Acertos: <span class="ml-2" id="actual-score">0</span>/4</span>
+      </div>
+    </div>
+    <section class="ml-4 mt-5 d-flex flex-wrap">
+      <section class="titulos col-3">
+        <div class="title-card" draggable="true" name="01">
+          <span>
+            0,749
+          </span>
+        </div>
+        <div class="title-card" draggable="true" name="02">
+          <span>
+            0,450
+          </span>
+        </div>
+        <div class="title-card" draggable="true" name="03">
+          <span>
+            0,763
+          </span>
+        </div>
+        <div class="title-card" draggable="true" name="04">
+          <span>
+            0,684
+          </span>
+        </div>
 
 
-
-          <div class="card-conteudo ml-2 mr-2 mb-2 mt-2 col">
-            <span>
-              <center><img src="image/2.jpg"</center>
-            </span>
-            <div class="empty" name="07">
-              <span id="tip07">Arraste aqui</span>
-            </div>
+      </section>
+      <div class="v-line"></div>
+      <section class="conteudos d-flex flex-wrap justify-content-between col-7">
+        <div class="card-conteudo ml-2 mr-2 mb-2 col">
+          <span>
+            <center><img src="image/RN.png" </center>
+          </span>
+          <div class="empty" name="03">
+            <span id="tip03">Arraste aqui</span>
           </div>
+        </div>
 
-          <div class="card-conteudo ml-2 mr-2 mb-2 mt-2 col">
-            <span>
-              <center><img src="image/3.jpg"</center>
-            </span>
-            <div class="empty" name="08">
-              <span id="tip08">Arraste aqui</span>
-            </div>
+        <div class="card-conteudo ml-2 mr-2 mb-2 col">
+          <span>
+            <center><img src="image/SP.png" </center>
+          </span>
+          <div class="empty" name="01">
+            <span id="tip01" class="">Arraste aqui</span>
           </div>
+        </div>
 
-
-          <div class="card-conteudo ml-2 mr-2 mb-2 mt-2 col">
-            <span></span>
+        <div class="card-conteudo ml-2 mr-2 mb-2 mt-2 col">
+          <span>
+            <center><img src="image/AM.png" </center>
+          </span>
+          <div class="empty" name="02">
+            <span id="tip07">Arraste aqui</span>
           </div>
-        </section>
+        </div>
+
+        <div class="card-conteudo ml-2 mr-2 mb-2 mt-2 col">
+          <span>
+            <center><img src="image/RJ.png" </center>
+          </span>
+          <div class="empty" name="04">
+            <span id="tip08">Arraste aqui</span>
+          </div>
+        </div>
+
+
+        <div class="card-conteudo ml-2 mr-2 mb-2 mt-2 col">
+          <span></span>
+        </div>
       </section>
     </section>
-    <div class="modal" tabindex="-1" role="dialog" id="myModal">
-      <div class="modal-dialog" role="document">
-        <div class="modal-content">
-          <div class="modal-header">
-            <h5 class="modal-title">Viu só, caro (a) aluno (a)? Com este jogo, você pôde perceber que as diferenças nem sempre são evidentes!
+    <center>
+      <footer id="footer" class="container">
+        <img src="logos/logo-lais.png" alt="LAIS"> &nbsp &nbsp
+        <img src="logos/logo-sedis.png" alt="SEDIS"> &nbsp
+        <img src="logos/ufrn.png" alt="UFRN">
+      </footer>
+    </center>
+    
+  </section>
+  <div class="modal" tabindex="-1" role="dialog" id="myModal">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title">Viu só, caro (a) aluno (a)? Com este jogo, você pôde perceber que as diferenças nem
+            sempre são evidentes!
 
-              Agora, voltemos à nossa aula!</h5>
-            <button
-              type="button"
-              class="close"
-              data-dismiss="modal"
-              aria-label="Close"
-              onclick="close();"
-              id="close"
-            >
-              <span aria-hidden="false">&times;</span>
-            </button>
-          </div>
+            Agora, voltemos à nossa aula!</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Fechar" onclick="close();" id="close">
+            <span aria-hidden="false">&times;</span>
+          </button>
+        </div>
 
-          <div class="modal-footer">
-            <button
-              type="button"
-              class="btn btn-secondary"
-              data-dismiss="modal"
-              onclick="close();"
-              id="close1"
-            >
-              Close
-            </button>
-          </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-dismiss="modal" onclick="close();" id="close1">
+            Fechar
+          </button>
         </div>
       </div>
     </div>
+  </div>
 
-    <div class="modal" tabindex="-2" role="dialog" id="myModal-again">
-      <div class="modal-dialog" role="document">
-        <div class="modal-content">
-          <div class="modal-header">
-            <h5 class="modal-title">Quase lá!</h5>
-            <button
-              type="button"
-              class="close"
-              data-dismiss="modal"
-              aria-label="Close"
-              onclick="close_again();"
-              id="close-again"
-            >
-              <span aria-hidden="false">&times;</span>
-            </button>
-          </div>
-          <div class="modal-body">
-            <p>
-              Você ainda não acertou todas..
-            </p>
-          </div>
-          <div class="modal-footer">
-            <button
-              type="button"
-              class="btn btn-secondary"
-              data-dismiss="modal"
-              onclick="close_again();"
-              id="close1-again"
-            >
-              Close
-            </button>
-          </div>
+  <div class="modal" tabindex="-2" role="dialog" id="myModal-again">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title">Quase lá!</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Fechar" onclick="close_again();"
+            id="close-again">
+            <span aria-hidden="false">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          <p>
+            Você ainda não acertou todas..
+          </p>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-dismiss="modal" onclick="close_again();"
+            id="close1-again">
+            Fechar
+          </button>
         </div>
       </div>
     </div>
-  </body>
-  <script src="js/jquery/jquery.min.js"></script>
-  <script src="bootstrap/js/bootstrap.bundle.min.js"></script>
-  <script src="js/main.js"></script>
-  <script>
-    document.getElementById("close").onclick = close;
-    document.getElementById("close1").onclick = close;
-    function close() {
-      const modal = document.querySelector("#myModal");
-      modal.remove("show");
-      modal.setAttribute("aria-hidden", "true");
-      modal.setAttribute("style", "display: none");
-      location.reload();
-    }
-    document.getElementById("close-again").onclick = close_again;
-    document.getElementById("close1-again").onclick = close_again;
-    function close_again() {
-      const modal = document.querySelector("#myModal-again");
-      modal.className = "modal";
-      modal.setAttribute("aria-hidden", "true");
-      modal.setAttribute("style", "display: none");
-    }
-  </script>
+  </div>
+  
+</body>
+<script src="js/jquery/jquery.min.js"></script>
+<script src="bootstrap/js/bootstrap.bundle.min.js"></script>
+<script src="js/main.js"></script>
+<script>
+  document.getElementById("close").onclick = close;
+  document.getElementById("close1").onclick = close;
+  function close() {
+    const modal = document.querySelector("#myModal");
+    modal.remove("show");
+    modal.setAttribute("aria-hidden", "true");
+    modal.setAttribute("style", "display: none");
+    location.reload();
+  }
+  document.getElementById("close-again").onclick = close_again;
+  document.getElementById("close1-again").onclick = close_again;
+  function close_again() {
+    const modal = document.querySelector("#myModal-again");
+    modal.className = "modal";
+    modal.setAttribute("aria-hidden", "true");
+    modal.setAttribute("style", "display: none");
+  }
+</script>
+
 </html>

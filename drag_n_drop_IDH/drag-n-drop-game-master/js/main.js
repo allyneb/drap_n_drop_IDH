@@ -79,7 +79,7 @@ window.onload = () => {
   function corrigirPainel(wrong_cards, id_acertos) {
     if (erros.length) {
       let vazios = document.querySelectorAll("#removeSpan");
-      let cnt_acertos = 8;
+      let cnt_acertos = 4;
       wrong_cards.forEach(card => {
         document.querySelector(".titulos").prepend(card);
       });
